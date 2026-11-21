@@ -1,0 +1,57 @@
+//PELICULAS
+
+//GET http://localhost:3000/peliculas
+
+# POST http://localhost:3000/peliculas
+# Content-Type: application/json
+
+# {
+#   "titulo":"oppenhimer",
+#   "genero":"biografia"
+# }
+
+# PUT http://localhost:3000/peliculas/3
+# Content-Type: application/json
+
+# {
+#   "titulo": "Avengers Secret Wars",
+#   "genero": "Accion"
+# }
+
+# POST http://localhost:3000/peliculas
+# Content-Type: application/json
+
+# {
+#   "titulo":12345,
+#   "genero": "Aventura"
+# }
+
+
+//ARTISTAS
+
+# GET  http://localhost:3000/artistas
+
+# GET  http://localhost:3000/artistas/2
+
+# POST  http://localhost:3000/artistas
+# Content-Type: application/json
+
+#  {
+#    "nombre":"dd",
+#    "generoMusical":"bolero",
+#    "pais":"España"
+ 
+# }
+
+# PUT  http://localhost:3000/artistas/4
+# Content-Type: application/json
+
+# {
+#   "nombre":"ii",
+#   "generoMusical":"No se",
+#   "pais":"NN"
+# }
+
+# GET http://localhost:3000/artistas/5
+
+DELETE http://localhost:3000/artistas/3
