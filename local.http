@@ -40,7 +40,7 @@
 #    "nombre":"dd",
 #    "generoMusical":"bolero",
 #    "pais":"España"
- 
+
 # }
 
 # PUT  http://localhost:3000/artistas/4
@@ -54,4 +54,4 @@
 
 # GET http://localhost:3000/artistas/5
 
-DELETE http://localhost:3000/artistas/3
+GET http://localhost:3000/peliculas
