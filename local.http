@@ -54,4 +54,26 @@
 
 # GET http://localhost:3000/artistas/5
 
-GET http://localhost:3000/peliculas
+
+// Pruebas Para la Evaluación
+
+# GET http://localhost:3000/peliculas
+
+# POST  http://localhost:3000/peliculas
+# Content-Type: application/json
+
+# {
+#   "titulo":"El viento se levanta",
+#   "genero":"Triste :("
+# }
+
+# PUT  http://localhost:3000/peliculas/4
+# Content-Type: application/json
+
+# {
+#   "titulo":"El viento se levanta",
+#   "genero":"Romance y tragedia"
+# }
+
+
+# DELETE  http://localhost:3000/peliculas/1
